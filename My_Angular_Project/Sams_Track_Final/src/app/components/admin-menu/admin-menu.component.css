@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #557e8e; /* Light background for contrast */
+}
+
+.navbar {
+    background: linear-gradient(90deg, #6ecefb, #481d7c); /* Gradient background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    color: #ece1e1 !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: 10px 20px !important;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.dropdown-item {
+    color: #333;
+    font-weight: 500;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.profile-icon {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .nav-link {
+        padding: 8px 15px !important;
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .profile-icon {
+        font-size: 1.2rem;
+    }
+}
